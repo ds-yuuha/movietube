@@ -1,0 +1,43 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "movietube-b2474",
+          "appId": "1:581634504628:android:fbb74da9ee0a7247d9a4e1",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "movietube-b2474",
+          "configurations": {
+            "android": "1:581634504628:android:fbb74da9ee0a7247d9a4e1",
+            "ios": "1:581634504628:ios:6cb57158851bb987d9a4e1",
+            "macos": "1:581634504628:ios:6cb57158851bb987d9a4e1",
+            "web": "1:581634504628:web:7bcdad8815e6aa38d9a4e1",
+            "windows": "1:581634504628:web:e9fe84d31fb27fa8d9a4e1"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "dataconnect": {
+      "dataDir": "dataconnect/.dataconnect/pgliteData"
+    }
+  },
+  "dataconnect": {
+    "source": "dataconnect"
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "database": {
+    "rules": "database.rules.json"
+  }
+}
